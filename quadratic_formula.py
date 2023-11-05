@@ -3,7 +3,7 @@ import sys
 # Take the values of a, b and c from the client.
 a = int(input("What is the value of a? "))
 
-if a == 0:       # Set a condition for a not equal to 0
+if a == 0:       # Set a condition for a == 0
     print("No")
     sys.exit(1)
 
